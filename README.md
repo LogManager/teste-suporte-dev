@@ -1,36 +1,19 @@
 # Teste de Programação - Etiquetas de Entrega
 
-Este é um teste de programação que consiste em desenvolver um sistema para um vendedor de e-commerce e marketplace que precisa criar etiquetas de entrega para seus pedidos e selecionar a transportadora desejada. O sistema atual não permite essa seleção e envia automaticamente as etiquetas para a primeira transportadora cadastrada.
+## Objetivo:
+O objetivo deste teste é desenvolver um sistema que permita a um vendedor de e-commerce e marketplace criar etiquetas de entrega e selecionar a transportadora desejada para cada pedido. Atualmente, o sistema existente não oferece essa opção, enviando automaticamente as etiquetas para a primeira transportadora cadastrada.
 
-## Problema
+## Problema:
+O sistema atual não permite ao vendedor selecionar uma transportadora ao criar uma etiqueta de entrega. Como resultado, todas as etiquetas são enviadas apenas para a primeira transportadora cadastrada.
 
-O sistema atual apresenta a seguinte limitação:
-- Não é possível selecionar a transportadora ao criar uma etiqueta de entrega.
+## Solução Proposta:
+Para resolver esse problema, será desenvolvido um novo sistema que ofereça a funcionalidade de seleção de transportadora durante a criação da etiqueta de entrega. O vendedor terá a liberdade de escolher a transportadora desejada para cada pedido, melhorando a flexibilidade e eficiência do processo de envio.
 
-## Solução Proposta
-
-A solução proposta consiste em desenvolver um novo sistema com as seguintes funcionalidades:
-- Permitir que o vendedor selecione a transportadora desejada ao criar uma etiqueta de entrega.
-- Armazenar as informações das etiquetas de entrega, incluindo o vendedor, a transportadora, o pedido e a data de envio.
-
-Além disso, será necessário criar uma documentação detalhada para orientar os clientes sobre como utilizar o sistema.
 
 ## Tecnologias Utilizadas
 
-- Linguagem de Programação: [Informe a linguagem de programação utilizada]
-- Banco de Dados: [Informe o banco de dados utilizado, se aplicável]
-- Frameworks ou Bibliotecas: [Informe quaisquer frameworks ou bibliotecas adicionais utilizadas]
-
-## Requisitos
-
-- [Liste aqui os requisitos específicos do sistema que precisam ser atendidos]
-
-## Como Executar o Projeto
-
-1. Faça o clone deste repositório.
-2. [Adicione aqui as instruções para configurar o ambiente de desenvolvimento, se aplicável]
-3. [Adicione aqui as instruções para instalar as dependências, se aplicável]
-4. [Adicione aqui as instruções para executar o projeto]
+- Linguagem de Programação: PHP, Laravel
+- Banco de Dados: MySQL
 
 ## Estrutura do Banco de Dados
 
@@ -75,3 +58,7 @@ CREATE TABLE Pedidos (
     valor_total DECIMAL(10, 2),
     FOREIGN KEY (vendedor_id) REFERENCES Vendedores(id)
 );
+
+## Passos finais
+
+
