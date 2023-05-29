@@ -1,13 +1,15 @@
 # Teste de Programação - Etiquetas de Entrega
 
 ## Objetivo:
-O objetivo deste teste é desenvolver um sistema que permita a um vendedor de e-commerce e marketplace criar etiquetas de entrega e selecionar a transportadora desejada para cada pedido. Atualmente, o sistema existente não oferece essa opção, enviando automaticamente as etiquetas para a primeira transportadora cadastrada.
+O objetivo deste teste é desenvolver um sistema que permita a um vendedor de e-commerce e marketplace criar etiquetas de entrega e selecionar a transportadora desejada para cada pedido. 
 
 ## Problema:
 O sistema atual não permite ao vendedor selecionar uma transportadora ao criar uma etiqueta de entrega. Como resultado, todas as etiquetas são enviadas apenas para a primeira transportadora cadastrada.
 
 ## Solução Proposta:
 Para resolver esse problema, será desenvolvido um novo sistema que ofereça a funcionalidade de seleção de transportadora durante a criação da etiqueta de entrega. O vendedor terá a liberdade de escolher a transportadora desejada para cada pedido, melhorando a flexibilidade e eficiência do processo de envio.
+
+Além disso, é necessário criar uma documentação detalhada que oriente o cliente sobre como utilizar o sistema.
 
 
 ## Tecnologias Utilizadas
