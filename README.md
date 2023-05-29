@@ -61,6 +61,10 @@ CREATE TABLE Pedidos (
     FOREIGN KEY (vendedor_id) REFERENCES Vendedores(id)
 );
 
-## Passos finais
+## No mais...
 
+Ao finalizar o teste, subir em um reposítorio do github privado e compartilhar com o user grazianilog do github. Após compartilhar enviar a URL do repositório para o e-mail graziani@logmangaer.com.br
 
+---
+
+Boa sorte! Esperamos ter você aqui com a gente :)
