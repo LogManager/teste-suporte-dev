@@ -65,7 +65,7 @@ CREATE TABLE Pedidos (
 
 ## No mais...
 
-Ao finalizar o teste, subir em um reposítorio do github privado e compartilhar com o user grazianilog do github. Após compartilhar enviar a URL do repositório para o e-mail graziani@logmangaer.com.br
+Ao finalizar o teste, subir em um reposítorio do github privado e compartilhar com o user grazianilog e Camila-guedesm do github. Após compartilhar enviar a URL do repositório para o e-mail graziani@logmanager.com.br e camila@logmanager.com.br
 
 ---
 
